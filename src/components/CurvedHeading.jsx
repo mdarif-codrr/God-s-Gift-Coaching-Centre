@@ -66,7 +66,7 @@ const CurvedHeading = ({ heading, }) => {
 
             <path
               id="curve-mobile"
-              d="M20,210 A140,130 0 0,1 350,200"
+              d="M35,210 A145,135 0 0,1 350,210"
               fill="transparent"
             />
           </defs>
@@ -102,7 +102,7 @@ const CurvedHeading = ({ heading, }) => {
           <text
           fontFamily="serif"
             fontSize={
-              isSchool ? 'clamp(48px, 6vw, 56px)' : 'clamp(30px, 6vw, 48px)'
+              isSchool ? 'clamp(48px, 6vw, 52px)' : 'clamp(30px, 6vw, 48px)'
             }
             fill={isSchool ? '#006430' : '#000E64'}
             textAnchor="middle"
