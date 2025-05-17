@@ -18,7 +18,7 @@ function Footer() {
           <li className=" text-white font-bold text-2xl max-sm:text-lg cursor-pointer hover:text-orange-500 hover:scale-115 transition-transform duration-300 ease-in-out ">
             <a
               className="flex items-center"
-              href="tel:+918579977282"
+              href="tel:+917260075959"
               title="call"
             >
               <MdAddCall className="" /> <span className="">Call</span>
@@ -27,7 +27,7 @@ function Footer() {
           <li className="text-white font-bold text-2xl max-sm:text-lg cursor-pointer hover:text-green-500 hover:scale-115 transition-transform duration-300 ease-in-out ">
             <a
               className="flex items-center"
-              href="https://wa.me/911234567890"
+              href="https://wa.me/917260075959"
               target="_blank"
               rel="noopener noreferrer"
               title="WhatsApp"
