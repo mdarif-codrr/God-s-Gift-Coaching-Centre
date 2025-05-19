@@ -6,7 +6,7 @@ import 'swiper/css/navigation'
 function SwiperJs({ swipMess, data }) {
   return (
     <>
-      <h4 className=" mt-3 font-bold text-4xl text-center">{swipMess + '👇'}</h4>
+      <h4 className=" mt-3 font-bold text-4xl max-sm:text-2xl text-center">{swipMess + '👇'}</h4>
 
       <div className="max-w-4xl max-lg:max-w-full flex rounded-xl max-h-[32rem] max-mb:h-32 my-9 overflow-hidden mx-auto cursor-pointer">
         <Swiper

@@ -6,7 +6,7 @@ function AboutUs() {
       <div className="max-w-5xl mx-auto px-6 py-10 bg-white rounded-md">
         <h1 className="text-3xl font-bold mb-6 text-center">About Us</h1>
 
-        <p className="text-lg mb-6 text-gray-700 font-semibold">
+        <p className="text-lg mb-6 text-gray-700 max-sm:text-sm font-semibold">
           <span className="font-semibold text-blue-700">
             God's Gift Coaching Centre
           </span>{' '}
@@ -17,7 +17,7 @@ function AboutUs() {
           सकें और आगे बढ़ें।
         </p>
 
-        <p className="text-lg mb-6 text-gray-700 font-semibold">
+        <p className="text-lg mb-6 text-gray-700 max-sm:text-sm font-semibold">
           वर्षों की कड़ी मेहनत और छात्रों के जबरदस्त रिस्पॉन्स के बाद, हमने एक
           कदम और आगे बढ़ाया। वर्ष <span className="font-bold text-green-600">2020</span> में
           हमने <span className="font-semibold text-blue-700">God's Gift School</span> की
@@ -27,7 +27,7 @@ function AboutUs() {
           रचनात्मक और प्रेरणादायक वातावरण देना।
         </p>
 
-        <p className="text-lg mb-6 text-blue-950 font-semibold">
+        <p className="text-lg mb-6 text-blue-950 max-sm:text-sm font-semibold">
           चाहे बात हो कोचिंग सेंटर की या स्कूल की — हमारा विज़न एक ही है:{' '}
           <span className="italic text-orange-500">
             "हर बच्चे में छुपी हुई प्रतिभा को निखारना और उन्हें बेहतर भविष्य की
@@ -35,13 +35,13 @@ function AboutUs() {
           </span>
         </p>
 
-        <p className="text-lg mb-6 text-gray-700 font-semibold">
+        <p className="text-lg mb-6 text-gray-700 max-sm:text-sm font-semibold">
           आज <span className='font-bold text-blue-700'>God's Gift</span> एक ऐसा नाम बन चुका है जिस पर माता-पिता और छात्र दोनों
           भरोसा करते हैं। हमारे समर्पित शिक्षक, अनुशासित शैक्षणिक माहौल और
           व्यक्तिगत ध्यान देने की परंपरा ने हजारों छात्रों की ज़िंदगी में
           सकारात्मक बदलाव लाया है।
         </p>
-        <p className="text-lg mb-6 text-gray-700 ">
+        <p className="text-lg mb-6 text-gray-700 max-sm:text-sm">
           <span className="font-bold text-blue-700">
             God's Gift Coaching Centre & Public School
           </span>{' '}
@@ -69,7 +69,7 @@ function AboutUs() {
           आत्मविश्वासी, विनम्र और सक्षम व्यक्तित्व का निर्माण करना, जो आने वाले
           कल का सामना दृढ़ता और गरिमा से कर सकें।
         </p>
-        <p className="text-lg text-green-700 font-semibold">
+        <p className="text-lg text-green-700 font-semibold max-sm:text-sm">
           हम भविष्य में भी इसी समर्पण और ऊर्जा के साथ काम करते रहेंगे — क्योंकि
           हमें विश्वास है कि{' '}
           <span className="font-semibold">हर बच्चा ईश्वर का उपहार है</span>,

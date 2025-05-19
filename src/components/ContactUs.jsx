@@ -31,7 +31,7 @@ function ContactUs() {
         </p>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-blue-950 mb-4">
+          <h2 className="text-2xl font-semibold text-blue-950 mb-4 max-sm:text-lg">
             संपर्क विवरण:
           </h2>
           <div className="flex justify-between bg-white p-3">
@@ -53,28 +53,28 @@ function ContactUs() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-950">
+          <h2 className="text-2xl font-semibold mb-4 text-blue-950 max-sm:text-lg">
             Office के समय:
           </h2>
           <ul className="list-disc list-inside space-y-2 text-lg">
             {list.map((li,i) => (
-              <li key={i} className="font-semibold ">{li}</li>
+              <li key={i} className="font-semibold max-sm:text-sm ">{li}</li>
             ))}
           </ul>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-950">
+          <h2 className="text-2xl font-semibold mb-4 text-blue-950 max-sm:text-lg">
             हमसे जुड़ने के तरीके:
           </h2>
           <ul className="list-disc list-inside space-y-2 text-lg">
-            {list2.map((li,i)=>  <li key={i} className='font-semibold'> {li} </li>)}
+            {list2.map((li,i)=>  <li key={i} className='font-semibold max-sm:text-sm'> {li} </li>)}
             
           </ul>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold mb-4 text-blue-950">हमारा स्थान</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-blue-950 max-sm:text-lg">हमारा स्थान</h2>
           <div className="w-full h-96">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1416.1581013083257!2d85.22627825844984!3d26.714445273319246!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ecc07dc4bd1711%3A0x4278c605ac6ea074!2sKusmahwa%2C%20Bihar%20845418!5e1!3m2!1sen!2sin!4v1747484357302!5m2!1sen!2sin"

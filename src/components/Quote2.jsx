@@ -14,13 +14,13 @@ function Quote2({ quote2, message, isSchool, secImg, }) {
         <h3
           className={
             isSchool
-              ? 'text-4xl max-w-lg font-bold mb-3 text-[#006430]'
-              : 'text-4xl max-w-lg font-bold mb-3 text-[#000E64]'
+              ? 'text-4xl max-w-lg font-bold mb-3 max-sm:text-2xl text-[#006430]'
+              : 'text-4xl max-w-lg font-bold mb-3 max-sm:text-2xl text-[#000E64]'
           }
         >
           Learning Has Never Been More Fun.
         </h3>
-        <p className="text-2xl max-lg:w-full max-w-xl font-semibold">
+        <p className="text-2xl max-lg:w-full max-sm:text-lg max-w-xl font-semibold">
           {' '}
           <span
             className={

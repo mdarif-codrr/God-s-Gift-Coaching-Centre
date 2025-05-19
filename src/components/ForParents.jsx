@@ -17,7 +17,7 @@ function ForParents() {
   return (
     <div className="pt-17 ">
       <div className="text-lg text-gray-700 leading-relaxed p-4 max-w-7xl mx-auto">
-        <p className="mb-4 text-2xl text-black font-semibold">
+        <p className="mb-4 text-2xl max-sm:text-lg text-black font-semibold">
           <span className="text-green-600 font-bold">
             GOD'S GIFT PUBLIC SCHOOL
           </span>{' '}
@@ -34,14 +34,14 @@ function ForParents() {
         <div className='relative'>
           <ul className="list-disc list-inside mb-4">
           
-         {list.map((lis,i)=> <li key={i} className='mt-3  p-3 font-semibold text-blue-950'>{lis}</li>)}
+         {list.map((lis,i)=> <li key={i} className='mt-3  p-3 font-semibold max-sm:text-sm max-sm:p-1 text-blue-950'>{lis}</li>)}
         </ul>
         <div className='max-w-3xl absolute w-full max-md:blur-[3px] top-0 -z-1 right-0'>
           <img src={img} alt="" />
         </div>
         </div>
 
-        <p className="mt-4 font-semibold text-red-600">
+        <p className="mt-4 font-semibold max-sm:text-sm text-red-600">
           हम आशा करते हैं कि आपका सहयोग बच्चों को एक उज्ज्वल भविष्य देने में
           हमारी सहायता करेगा। किसी भी प्रकार की जानकारी या सहायता के लिए स्कूल
           कार्यालय से संपर्क करें। 👇👇👇

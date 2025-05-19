@@ -3,7 +3,7 @@
 function Cources({ data, isSchool,courceHead }) {
   return (
     <div className="w-full">
-      <p className="text-center  font-bold text-3xl py-3 pt-5">
+      <p className="text-center max-sm:text-2xl  font-bold text-3xl py-3 pt-5">
         {/* courses message  courceHead */}
         {courceHead}
       </p>
