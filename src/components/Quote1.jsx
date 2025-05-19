@@ -2,7 +2,7 @@
 
 function Quote1({quote1,message,isSchool}) {
   return (
-    <div className="max-w-4xl self-start max-lg:self-center max-lg:mt-44 max-sm:mt-16   ml-3">
+    <div className={`${isSchool && 'max-sm:mt-48'} max-w-4xl self-start max-lg:self-center max-lg:mt-44 max-sm:mt-44   ml-3`}>
           <p className="text-2xl max-w-xl font-semibold">
             {' '}
             <span
@@ -14,6 +14,7 @@ function Quote1({quote1,message,isSchool}) {
             >
               {message}
             </span>
+            <br />
             {quote1}
           </p>
         </div>

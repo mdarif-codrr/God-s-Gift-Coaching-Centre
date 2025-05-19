@@ -38,7 +38,7 @@ function Footer() {
           <li className="text-white font-bold text-2xl max-sm:text-lg cursor-pointer hover:text-blue-500 hover:scale-115 transition-transform duration-300 ease-in-out ">
             <a
               className="flex items-center"
-              href="https://mail.google.com/mail/?view=cm&to=mdarif@gmail.com"
+              href="mailto:mdarif@gmail.com?subject=Hello&Sir=Type your message here"
               target="_blank"
               rel="noopener noreferrer"
               title="Email"

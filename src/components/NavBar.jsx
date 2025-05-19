@@ -49,12 +49,12 @@ const NavBar = () => {
       </div>
 
       {menuOpen && (
-        <ul className="absolute top-0 left-0 w-full bg-white shadow-md px-6 py-4 flex flex-col gap-4 font-semibold rounded-b-lg z-20 lg:hidden">
+        <ul className="absolute top-0 left-0 w-full bg-white opacity-65 invert shadow-md px-6 py-4 flex flex-col gap-4 font-semibold rounded-b-lg z-20 lg:hidden">
           {Object.entries(pathMap).map(([label, path], index) => (
             <li
             onClick={toggleMenu}
             key={index}
-            className="text-[#000E64] text-center hover:text-[#0060D0] cursor-pointer font-bold hover:scale-115 transition-transform duration-300 ease-in-out"
+            className="text-red-700 text-center hover:text-[#0060D0] cursor-pointer font-bold hover:scale-115 transition-transform duration-300 ease-in-out"
             >
               <Link to={path}>{label}</Link>
             </li>

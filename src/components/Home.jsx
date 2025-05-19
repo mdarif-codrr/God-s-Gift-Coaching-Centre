@@ -3,6 +3,7 @@ import { useContext, useEffect, } from 'react'
 import { CoachingContext } from '../context/CoachingContext'
 import Owners from './Owners'
 import img from '../assets/for-parents-hero-img2.webp'
+import { Link } from 'react-router'
 function Home() {
   const { isSchool, setIsSchool } = useContext(CoachingContext)
   useEffect(() => {
@@ -14,7 +15,6 @@ function Home() {
     'पाक और सदाचार माहौल',
     'सस्ता और सबसे अच्छा शिक्षा का व्यवस्था',
     'प्रत्येक सब्जेक्ट के लिए योग्य और परिश्रमी शिक्षक',
-    'क़ुरआन शरीफ़ और दीनी तालीम का ख़ास निज़ाम',
     'क़ुरआन शरीफ़ और दीनी तालीम का ख़ास निज़ाम',
     'यतीम और ग़रीब विद्यार्थियों के लिए फीस में विशेष रूप से कमी',
     'Class 1 to 12th तक Arts और Science की सभी Subject की व्यवस्था',
@@ -35,10 +35,12 @@ function Home() {
             <h1 className="font-bold max-md:text-4xl max-sm:text-xl  max-lg:text-5xl max-xl:text-6xl text-7xl text-center text-blue-900 font-serif drop-shadow-[3px_3px_2px_rgba(0,0,0,0.3)]">
               GOD'S GIFT PUBLIC SCHOOL
             </h1>
-            <p className="text-center font-semibold max-sm:text-[10px] text-lg flex justify-center items-center">
+            <div className="text-center font-semibold max-sm:text-[10px] text-lg p-2">
+              <Link className=' flex justify-center items-center' to={'/contactus'} >
               {<FaLocationDot />}Kusmahwa Bazar, Bairgania Dhaka Road, East
               Champaran
-            </p>
+              </Link>
+            </div>
           </div>
           <div className="bg-green-300 overflow-hidden whitespace-nowrap">
             <p className="animate-marquee font-bold text-4xl max-sm:text-[19px] max-md:text-2xl text-red-600 inline-block">
@@ -48,7 +50,7 @@ function Home() {
           </div>
 
           <div className="w-full h-13 mt-3 bg-blue-800">
-            <p className="text-3xl max-md:text-xl max-sm:text-lg text-center font-semibold pt-2 text-white">
+            <p className="text-3xl max-md:text-xl max-sm:text-lg text-center font-semibold pt-2 max-md:pt-3 text-white">
               CLASS-NURSERY TO VIII (CBSE){' '}
             </p>
           </div>
@@ -81,17 +83,22 @@ function Home() {
               {features.map((mess, i) => (
                 <li
                   key={i}
-                  className="text-xl text-[#000E64] max-sm:pl-0 max-sm:ml-0 max-md:text-lg max-sm:text-[12px]  font-semibold ml-3 p-3 max-sm:p-1 roman-list list-inside"
+                  className="text-xl text-[#0f6400] max-sm:pl-0 max-sm:ml-0 max-md:text-lg max-sm:text-[12px]  font-semibold ml-3 p-3 max-sm:p-1 roman-list list-inside"
                 >
                   {mess}
                 </li>
               ))}
             </ol>
-            <div className="absolute top-17 -z-10 right-0 max-w-2xl">
+            <div className="absolute top-17 -z-10 right-0 max-sm:blur-[1px] max-w-2xl">
               <img src={img} alt="" />
             </div>
           </div>
           <div className="w-full max-w-[1500px] h-0.5 my-3 bg-gray-300"></div>
+          <div>
+            <p className="text-lg mb-4 text-center font-semibold max-sm:text-[10px] text-red-600">
+          प्रवेश (Admission) से जुड़ी जानकारी के लिए हमसे आज ही संपर्क करें! 👇👇👇
+        </p>
+          </div>
           <div className="flex justify-between bg-white p-3">
             <Owners
               post={'Director :-'}
@@ -102,7 +109,7 @@ function Home() {
             />
             <Owners
               post={'Principal :-'}
-              name={'Naushad Alam ( B.Sc. & D.E; Ed. )'}
+              name={'Naushad Alam ( B.Sc. & D.El.Ed. )'}
               number={'7260075959'}
               mail={'https://mail.google.com/mail/?view=cm&to=mdarif@gmail.com'}
               whatsApp={'https://wa.me/917260075959'}

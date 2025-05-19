@@ -34,9 +34,9 @@ function ForParents() {
         <div className='relative'>
           <ul className="list-disc list-inside mb-4">
           
-         {list.map((lis,i)=> <li key={i} className='mt-3  p-3 text-blue-950'>{lis}</li>)}
+         {list.map((lis,i)=> <li key={i} className='mt-3  p-3 font-semibold text-blue-950'>{lis}</li>)}
         </ul>
-        <div className='max-w-3xl absolute w-full top-0 -z-1 right-0'>
+        <div className='max-w-3xl absolute w-full max-md:blur-[3px] top-0 -z-1 right-0'>
           <img src={img} alt="" />
         </div>
         </div>

@@ -39,14 +39,14 @@ function ContactUs() {
               post={'Director :-'}
               name={'Mufti Abshar Faiz ( 2 M.A )'}
               number={'9199507040'}
-              mail={'https://mail.google.com/mail/?view=cm&to=mdarif@gmail.com'}
+              mail={'https://mail.google.com/mailto/?view=cm&to=mdarif@gmail.com'}
               whatsApp={'https://wa.me/919199507040'}
             />
             <Owners
               post={'Principal :-'}
-              name={'Naushad Alam ( B.Sc. & D.E; Ed. )'}
+              name={'Naushad Alam ( B.Sc. & D.El.Ed. )'}
               number={'7260075959'}
-              mail={'https://mail.google.com/mail/?view=cm&to=mdarif@gmail.com'}
+              mail={'https://mail.google.com/mailto/?view=cm&to=mdarif@gmail.com'}
               whatsApp={'https://wa.me/917260075959'}
             />
           </div>

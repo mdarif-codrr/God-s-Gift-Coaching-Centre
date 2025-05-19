@@ -39,7 +39,7 @@ function ForCoaching() {
     {
       head: 'I.Sc (Intermediate Science)',
       message:
-        'I.Sc छात्रों के लिए भौतिकी, रसायन विज्ञान, और जीवविज्ञान जैसे विज्ञान विषयों की कोचिंग।',
+        'I.Sc छात्रों के लिए भौतिकी, रसायन विज्ञान, और जीवविज्ञान जैसे विषयों की कोचिंग।',
     },
     {
       head: 'I.A (Intermediate Arts)',
