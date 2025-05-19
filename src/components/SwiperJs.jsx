@@ -23,7 +23,7 @@ function SwiperJs({ swipMess, data }) {
           {data.map((ele, i) => {
             return (
               <SwiperSlide>
-                <img className="rounded-xl " src={ele} alt={'Slide' + i} />
+                <img className="rounded-xl h-full" src={ele} alt={'image' + i} />
               </SwiperSlide>
             )
           })}

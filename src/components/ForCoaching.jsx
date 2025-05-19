@@ -19,7 +19,7 @@ function ForCoaching() {
    }, [setIsSchool]);
 
 
-  const swipData = [img1, img2, img3]
+  const swipData = [img1, img2, img3,img1, img2, img3,img1, img2, img3,img1, img2, img3]
   const data = [
     {
       head: 'Class 1-5',

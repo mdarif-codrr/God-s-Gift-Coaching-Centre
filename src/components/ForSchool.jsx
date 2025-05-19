@@ -31,7 +31,7 @@ function ForSchool() {
         'एक प्रोत्साहित करने वाला माहौल जहाँ हर बच्चा महत्वपूर्ण, सुना हुआ, और सीखने के लिए उत्साहित महसूस करता है।',
     },
   ]
-  const swipData = [ThirdImg, HeroImg, SecImg]
+  const swipData = [ThirdImg, HeroImg, SecImg,ThirdImg,HeroImg,SecImg,ThirdImg, HeroImg, SecImg,ThirdImg,HeroImg,SecImg]
   return (
     <>
 

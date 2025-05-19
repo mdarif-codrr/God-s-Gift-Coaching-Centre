@@ -56,7 +56,7 @@ function Home() {
           </div>
           <div>
             <p className="font-semibold max-md:text-xl max-sm:text-sm mt-3 text-3xl text-center">
-              आपको यह जानकर अपार ख़ुशी होगी कि आपके इलाक़े का मशहूर संस्थान |{' '}
+              आपको यह जानकर अपार ख़ुशी होगी कि आपके इलाक़े का मशहूर संस्थान{' '}
             </p>
             <h2 className="font-bold max-sm:text-sm max-md:text-3xl max-lg:text-4xl text-5xl mt-3 text-center text-blue-900 font-serif ">
               GOD'S GIFT COACHING CENTRE{' '}
@@ -104,14 +104,14 @@ function Home() {
               post={'Director :-'}
               name={'Mufti Abshar Faiz ( 2 M.A )'}
               number={'9199507040'}
-              mail={'https://mail.google.com/mail/?view=cm&to=mdarif@gmail.com'}
+              mail={'mailto:mdarif@gmail.com?subject=Hello&Sir=Type your message here'}
               whatsApp={'https://wa.me/919199507040'}
             />
             <Owners
               post={'Principal :-'}
               name={'Naushad Alam ( B.Sc. & D.El.Ed. )'}
               number={'7260075959'}
-              mail={'https://mail.google.com/mail/?view=cm&to=mdarif@gmail.com'}
+              mail={'mailto:mdarif@gmail.com?subject=Hello&Sir=Type your message here'}
               whatsApp={'https://wa.me/917260075959'}
             />
           </div>
